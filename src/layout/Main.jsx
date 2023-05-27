@@ -7,7 +7,7 @@ const Main = () => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-    fetch(`http://www.omdbapi.com/?apikey=c8ed8ebe&s=terminator&page=1`)
+    fetch(`http://www.omdbapi.com/?apikey=c8ed8ebe&s={}&page=1`)
       .then(res => res.json())
       .then(data => setMovies(data.Search))
   }, []);
