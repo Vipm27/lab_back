@@ -1,0 +1,145 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #FAF9F9;
+	font-family: 'Inter';
+}
+
+.login-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 470px;
+	height: 618px;
+	padding-top: 77px;
+	padding-right: 55px;
+	padding-bottom: 60px;
+	padding-left: 55px;
+	border-radius: 21px;
+	background: #EEEEEE;
+}
+
+.login-box h2 {
+	margin: 0 0 42px;
+	color: #000;
+	text-align: center;
+}
+
+.login-box form {
+	position: relative;
+	height: auto;
+}
+
+.login-box form .user-box {
+	margin-bottom: 29px;
+}
+
+.login-box form .user-box input {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	width: 100%;
+	height: 50px;
+	padding: 10px 20px;
+	font-size: 14px;
+	border: none;
+	border-radius: 13px;
+	color: #8C8B8B;
+	background: transparent;
+}
+
+.login-box form .user-box label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 16px 20px;
+	font-size: 14px;
+	color: #8C8B8B;
+	pointer-events: none;
+	transition: 0.5s;
+}
+
+.login-box form .user-box input:focus~label,
+.login-box form .user-box input:valid~label {
+	top: -40px;
+	left: 0;
+	color: #33b5e5;
+	font-size: 14px;
+}
+
+.login-box form .user-box-password {
+	margin-bottom: 191px;
+}
+
+.login-box form .user-box-password input {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	width: 100%;
+	height: 50px;
+	padding: 10px 20px;
+	font-size: 14px;
+	border: none;
+	border-radius: 13px;
+	color: #8C8B8B;
+	background: transparent;
+}
+
+.login-box form .user-box-password label {
+	position: absolute;
+	left: 0;
+	padding: 16px 20px;
+	font-size: 14px;
+	color: #8C8B8B;
+	pointer-events: none;
+	transition: 0.5s;
+}
+
+.login-box form .user-box-password input:focus~label,
+.login-box form .user-box-password input:valid~label {
+	top: 40px;
+	left: 0;
+	color: #33b5e5;
+	font-size: 14px;
+}
+
+.login-box form .log-in{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 42;
+}
+
+.login-box form .log-in a{
+	background: #498553;
+	color: #fff;
+	padding: 13px 100px;
+	border-radius: 31px;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: none;
+	position: relative;
+	overflow: hidden;
+	transition: 0.5s;
+
+}
+
+.login-box form .sign-up{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 42;
+}
+
+.login-box form .sign-up a{
+	background: transparent;
+	color: #498553;
+	padding: 13px 100px;
+	border-radius: 31px;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: none;
+	position: relative;
+	overflow: hidden;
+	transition: 0.5s;
+	margin-bottom: 42;
+}

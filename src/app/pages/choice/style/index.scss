@@ -1,0 +1,32 @@
+@import "./nullcss.scss";
+
+$wightProject:1440px;
+$colorBack: #F8F8F8;
+$colorRightCard: #E9F3ED;
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    max-width: $wightProject;
+    margin:0 auto;
+    max-height: 4524px;
+    margin-top: -33px;
+    background-color: #F8F8F8;
+
+    @import "./rightSide.scss";
+    
+    @import "./leftSide.scss";
+
+}
+@media (max-width:1440px){
+    .main{
+        max-width: 970px;
+        .right_side{
+            position:static;
+            display: none;
+        }
+        flex-direction: column-reverse;
+        max-height: 4524px;
+    }
+}

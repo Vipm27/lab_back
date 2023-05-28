@@ -1,0 +1,345 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: #F8F8F8;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  max-height: 4524px;
+  margin-top: -33px;
+  background-color: #F8F8F8;
+}
+.main .right_side {
+  background-color: #E9F3ED;
+  height: 824px;
+  width: 667px;
+  margin-right: 45px;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.main .right_side .informations_plant {
+  margin: 60px 0 0 551px;
+  position: absolute;
+}
+.main .right_side .informations_plant .informations_plant__block {
+  padding-bottom: 20px;
+}
+.main .right_side .informations_plant .informations_plant__block .informations_plant__filling_hight {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #A1A7A4;
+}
+.main .right_side .informations_plant .informations_plant__block .informations_plant__filling_small {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 10px;
+  color: #498553;
+}
+.main .right_side .right_side__image_plants {
+  margin: 67px 0 0 -50px;
+  position: absolute;
+  z-index: 2;
+}
+.main .right_side .right_side__shadow {
+  height: 170px;
+  width: 155px;
+  background-color: black;
+  opacity: 20%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 30%;
+  margin: 400px 0 0 120px;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+}
+.main .right_side .right_side__figure_left_top {
+  width: 469.88px;
+  height: 295.14px;
+  border-radius: 0 0 50% 0;
+  background-color: #D7EADD;
+}
+.main .right_side .information {
+  margin-top: 173px;
+  height: 556px;
+  width: 667px;
+  background-color: #FFFFFF;
+  border-radius: 100px 100px 0 0;
+}
+.main .right_side .information .information__stickers {
+  width: 160px;
+  height: 28px;
+  margin: -180px 0px 240px 442px;
+}
+.main .right_side .information .information__stickers .information__sticker {
+  width: 29px;
+  height: 29px;
+  margin: 0px 0px 0px 20px;
+}
+.main .right_side .information .information__hieght_text {
+  display: inline-block;
+  margin-top: 150px;
+  margin-left: 98px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #498553;
+}
+.main .right_side .information .information__discription {
+  margin: 18px 0px 0px 97px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.025em;
+  width: 471px;
+  height: 141px;
+  color: #A8A8A8;
+}
+.main .right_side .information .information__button {
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #498553;
+  color: #FFFFFF;
+  margin: 69px 0px 0px 113px;
+  width: 440px;
+  height: 58px;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main .right_side .information .information__button:hover {
+  background-color: #42794B;
+}
+.main .left_side {
+  max-width: 632px;
+  min-height: 3224px;
+  max-height: 6024px;
+  margin-top: 31px;
+  margin-left: 45px;
+}
+.main .left_side .navigation_main {
+  padding-top: 10px;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+.main .left_side .navigation_main .navigation {
+  margin: 1000px 0 0 0;
+  width: 569px;
+  height: 57px;
+  margin: 0px 0 0px 62px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 2px 4px 13px rgba(138, 138, 138, 0.25);
+          box-shadow: 2px 4px 13px rgba(138, 138, 138, 0.25);
+  border-radius: 21px;
+}
+.main .left_side .navigation_main .navigation .navigation__text {
+  width: 518px;
+  height: 57px;
+  margin: 0px 0px 0px 51px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  border-radius: 21px;
+}
+.main .left_side .navigation_main .navigation .navigation__sticker {
+  width: 18px;
+  height: 18px;
+  margin: -37px 0px 0px 20px;
+}
+.main .left_side .list_of_plants {
+  width: 569px;
+  height: 1900px;
+  margin: 62px 0 0px 62px;
+}
+.main .left_side .list_of_plants .list_of_plants__element_plants {
+  margin: 36px 0px 0px 0px;
+  border-radius: 20px;
+  width: 569px;
+  height: 216px;
+  background-color: #E9F3ED;
+}
+.main .left_side .list_of_plants .list_of_plants__element_plants:hover {
+  background-color: #D3E7DB;
+}
+.main .left_side .list_of_plants .list_of_plants__element_plants:hover .list_of_plants__left_top_figure {
+  background-color: #BFDFC9;
+}
+.main .left_side .list_of_plants .list_of_plants__element_plants .list_of_plants__left_top_figure {
+  width: 195px;
+  height: 139px;
+  border-radius: 20px 15px 100px 0px;
+  background-color: #D7EADD;
+}
+.main .left_side .list_of_plants .list_of_plants__element_plants .list_of_plants_text {
+  width: 296px;
+  height: 101px;
+  margin: -100px 0px 0px 212px;
+}
+.main .left_side .list_of_plants .list_of_plants__element_plants .list_of_plants__hieght_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #498553;
+}
+.main .left_side .list_of_plants .list_of_plants__element_plants .list_of_plants__small_text {
+  display: block;
+  margin: 17px 0 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6A6D6C;
+}
+.main .left_side .list_of_plants .list_of_plants__element_plants .list_of_plants__sticker_plants {
+  position: absolute;
+  margin-top: 20px;
+  z-index: 1;
+}
+.main .left_side .list_of_plants .list_of_plants__element_plants .right_side__shadow {
+  height: 50px;
+  width: 60px;
+  background-color: black;
+  opacity: 20%;
+  position: absolute;
+  z-index: 0;
+  border-radius: 30%;
+  margin: 160px 0 0 80px;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+}
+.main .left_side .list_of_plants .list_of_plants__element_plants .list_of_plants__stickers {
+  width: 150px;
+  height: 28px;
+  margin: 33px 0px 0px 377px;
+}
+.main .left_side .list_of_plants .list_of_plants__element_plants .list_of_plants__sticker {
+  width: 28px;
+  height: 28px;
+  margin: 0px 0px 0px 17px;
+}
+
+@media (max-width: 1440px) {
+  .main {
+    max-width: 970px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    max-height: 4524px;
+  }
+  .main .right_side {
+    position: static;
+    display: none;
+  }
+}

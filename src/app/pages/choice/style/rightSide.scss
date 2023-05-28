@@ -1,0 +1,119 @@
+.right_side{
+    background-color: $colorRightCard;
+    height: 824px;
+    width: 667px;
+    margin-right: 45px;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    .informations_plant{
+        margin: 60px 0 0 551px;
+        position: absolute;
+        .informations_plant__block{
+            padding-bottom: 20px;
+            .informations_plant__filling_hight{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: #A1A7A4;
+            }
+            .informations_plant__filling_small{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                margin-top: 10px;
+                color: #498553;
+            }
+        }
+    }
+    .right_side__image_plants{
+        margin: 67px 0 0 -50px;
+        position: absolute;
+        z-index: 2;
+    }
+    .right_side__shadow{
+        height: 170px;
+        width: 155px;
+        background-color: black;
+        opacity: 20%;
+        position: absolute;
+        z-index: 1;
+        border-radius: 30%;
+        margin: 400px 0 0 120px;
+        filter: blur(10px);
+    } 
+    .right_side__figure_left_top{
+        width: 469.88px;
+        height: 295.14px;
+        border-radius: 0 0 50% 0;
+        background-color: #D7EADD;
+    }
+    .information{
+        margin-top: 173px;
+        height: 556px;
+        width: 667px;
+        background-color: #FFFFFF;
+        border-radius: 100px 100px 0 0;
+        .information__stickers{
+            width: 160px;
+            height: 28px;
+            margin: -180px 0px 240px 442px;
+            .information__sticker{
+                width: 29px;
+                height: 29px;
+                margin: 0px 0px 0px 20px;
+            }
+        }
+        .information__hieght_text{
+            display: inline-block;
+            margin-top: 150px;
+            margin-left: 98px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #498553; 
+        }
+        .information__discription{
+            margin: 18px 0px 0px 97px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 0.025em;
+            width: 471px;
+            height: 141px;
+            color: #A8A8A8;
+        }
+        .information__button{
+            display: table-cell;
+            vertical-align: middle;
+            background-color: #498553;
+            color: #FFFFFF;
+            margin: 69px 0px 0px 113px;
+            width: 440px;
+            height: 58px;
+            text-align: center;
+            border-radius: 30px 30px 30px 30px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:hover{
+                background-color: #42794B;
+            }
+        }
+    }
+}

@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap');
+
+.registration-box {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0px;
+    background-color: #f9f9f9;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registration-box form {
+    height: 40%;
+    width: 60%;
+    position: relative;
+    text-align: center;
+}
+
+.registration-box form h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16;
+    margin-bottom: 75px;
+}
+
+.registration-box form .plant-name-box {
+    width: calc(100% - 40px);
+    margin-bottom: 28px;
+}
+
+.registration-box form .plant-name-box input {
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+	font-size: 14px;
+	border: none;
+	box-shadow: 0px 5px 17px rgba(0, 0, 0, 0.11);
+    border-radius: 19px;
+	color: #8C8B8B;
+}
+
+.registration-box form .plant-name-box label {
+    position: absolute;
+    top: 150px;
+    left: 22px;
+}
+
+.registration-box form .code-box {
+    width: calc(100% - 40px);
+    margin-bottom: 100px;
+}
+
+.registration-box form .code-box input {
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+	font-size: 14px;
+	border: none;
+	box-shadow: 0px 5px 17px rgba(0, 0, 0, 0.11);
+    border-radius: 19px;
+	color: #8C8B8B;
+}
+
+.registration-box form .code-box label {
+    position: absolute;
+    top: 247px;
+    left: 22px;
+}
+
+.registration-box form .accessing{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 42;
+    width: 100%;
+    height: 55px;
+    background: #498553;
+    border-radius: 31px;
+    text-align:center;
+    align-items: center;
+}
+
+.registration-box form .accessing a{
+    font-family: 'Montserrat';
+    font-weight: 500;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: none;
+    width: 100%;
+}
+
+.right-background {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(163.17deg, #A9B2B6 3.45%, #9FA9AD 96.02%);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.right-background img {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.right-background .plant-button-for-choice {
+    position: absolute;
+    bottom: 0px;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+
+    width: 85%;
+    height: auto;
+
+    border: none;
+    border-radius: 34px;
+
+    background: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(6.5px);
+
+    text-decoration: none;
+}
+
+.right-background .plant-button-for-choice .plant-button-for-choice-content {
+    padding-left: 66px;
+    text-align: left;
+    width: fit-content;
+    display: inline-block;
+
+
+}
+
+.right-background .plant-button-for-choice .plant-button-for-choice-content h2 {
+    text-decoration: none;
+    margin-bottom: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #498553;
+
+}
+
+.right-background .plant-button-for-choice .plant-button-for-choice-content p {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #707070;
+}
+
+.right-background .plant-button-for-choice img {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+}
+
+
+.registration-box .plant-name-box input:valid~label,
+.registration-box .code-box input:valid~label {
+    display: none;
+}
+
+.registration-box .plant-name-box input:focus~label,
+.registration-box .code-box input:focus~label {
+    color: gray;
+}
+
+
+
+.plant-button-for-choice:hover {
+    transition: 1s;
+    backdrop-filter: blur(10px);
+}
+
+.plant-button-for-choice:hover .check-circle {
+    transition: 1s;
+    display:none;
+}
+
+.plant-button-for-choice:not(hover) .zoom-in {
+    transition: 1s;
+    display:none;
+}
+
+.plant-button-for-choice:hover .zoom-in {
+    transition: 1s;
+    display: block;
+}

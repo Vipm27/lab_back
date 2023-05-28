@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(https://fonts.google.com/share?selection.family=Montserrat:wght@700);
+}
+@font-face {
+    font-family: Inter;
+    src: url(https://fonts.google.com/share?selection.family=Inter:wght@500);
+}
+
+.rectangular-button {
+    z-index: 0;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #E9F3ED;
+    border: none;
+    border-radius: 20px;
+    padding-top: 29px;
+    padding-left: 212px;
+    padding-bottom: 20px;
+    padding-right: 27px;
+    width: 554px;
+    height: 216px;
+    margin-right: 9px;
+    margin-bottom: 38px;
+}
+
+.rectangular-button-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+}
+
+.rectangular-button-title {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Montserrat;
+    margin-bottom: 7px;
+    color: #498553;
+}
+
+.rectangular-button-description {
+    font-size: 14px;
+    color: #808080;
+    padding-right: 30px;
+    margin-bottom: 7px;
+    font-family: Inter;
+}
+
+.rectangular-button-small-icons {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.rectangular-button-small-icon {
+    display: flex;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-left: 27px;
+}
+
+.rectangular-button-head-background{
+    z-index: -4;
+    position: absolute;
+    background-color: #D7EADD;
+    height: 139px;
+    width: 195px;
+    border-radius: 20px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 0px;
+    left: 0px;
+    top: 0px;
+}
+
+.rectangular-button-state-display {
+    height: 48px;
+    width: 48px;
+    z-index: -2;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 40px;
+    left: 74px;
+    /* background: rgba(205, 214, 219, 0.7); */
+}
+
+.rectangular-button-plant-icon {
+    z-index: -3;
+    position: absolute;
+    left: -6px;
+    bottom: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(000, 000, 000, 0.25));
+}
+
+.rectangular-button-plant-state-icon {
+    z-index: -2;
+    position: flex;
+}
+
+.rectangular-button-plant-icon-Tanya {
+    z-index: -2;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}

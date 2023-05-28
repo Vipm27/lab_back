@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #FAF9F9;
+	font-family: 'Inter';
+}
+
+.registration-left-side {
+    padding-top: 275px;
+    padding-left: auto;
+    padding-right: auto;
+    position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 50%;
+	height: auto 100%;
+	background-color: #EEEEEE;
+    align-items: center;
+}
+
+/* .registration-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 470px;
+	height: auto;
+	padding-top: 77px;
+	padding-right: 55px;
+	padding-bottom: 60px;
+	padding-left: 55px;
+	border-radius: 21px;
+	background: #EEEEEE;
+} */
+
+.registration-box h2 {
+    font-family: 'Montserrat', sans-serif;
+	margin: 0 0 75px;
+	color: #000;
+	text-align: center;
+}
+
+.registration-box form {
+    width: 60%;
+	position: relative;
+	height: auto;
+}
+
+.registration-box form .plant-name-box {
+	margin-bottom: 29px;
+}
+
+.registration-box form .plant-name-box input {
+    width: 100%;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	height: 50px;
+	padding: 10px 20px;
+	font-size: 14px;
+	border: none;
+	border-radius: 13px;
+	color: #8C8B8B;
+	background: transparent;
+}
+
+.registration-box form .plant-name-box label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 16px 20px;
+	font-size: 14px;
+	color: #8C8B8B;
+	pointer-events: none;
+	transition: 0.5s;
+}
+
+.registration-box form .plant-name-box input:focus~label,
+.registration-box form .plant-name-box input:valid~label {
+	top: -40px;
+	left: 0;
+	color: #33b5e5;
+	font-size: 14px;
+}
+
+.registration-box form .code-box {
+	margin-bottom: 103px;
+}
+
+.registration-box form .code-box input {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	width: 100%;
+	height: 50px;
+	padding: 10px 20px;
+	font-size: 14px;
+	border: none;
+	border-radius: 13px;
+	color: #8C8B8B;
+	background: transparent;
+}
+
+.registration-box form .code-box label {
+	position: absolute;
+	left: 0;
+	padding: 16px 20px;
+	font-size: 14px;
+	color: #8C8B8B;
+	pointer-events: none;
+	transition: 0.5s;
+}
+
+.registration-box form .code-box input:focus~label,
+.registration-box form .code-box input:valid~label {
+	top: 40px;
+	left: 0;
+	color: #33b5e5;
+	font-size: 14px;
+}
+
+.registration-box form .accessing{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 42;
+}
+
+.registration-box form .accessing a{
+	background: #498553;
+	color: #fff;
+	padding: 13px 100px;
+	border-radius: 31px;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: none;
+	position: relative;
+	overflow: hidden;
+	transition: 0.5s;
+
+}
+
+.registration-box form .sign-up{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 42;
+}
+
+.registration-box form .sign-up a{
+	background: transparent;
+	color: #498553;
+	padding: 13px 100px;
+	border-radius: 31px;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: none;
+	position: relative;
+	overflow: hidden;
+	transition: 0.5s;
+	margin-bottom: 42;
+}

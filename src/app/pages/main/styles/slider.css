@@ -1,0 +1,65 @@
+@media (max-width: 1440px) {
+    #notifications-table {
+        display: flex;
+        flex-direction: row;
+        max-width: 500px;
+        align-items: center;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .transparent {
+        width: 100%;
+        display: inline-block;
+        height: 275px;
+        position: absolute;
+        opacity: 0;
+        left: 0;
+        transition: opacity 1s;
+    }
+
+    .active-button {
+        width: 100%;
+        opacity: 1;
+        display: inline-block;
+    }
+
+
+    #next {
+        top: 400px;
+        position: absolute;
+        right: 3%;
+        border: none;
+        height: 50px;
+        background-color: #D7EADD;
+        width: 50px;
+        border-radius: 50%;
+        visibility: visible;
+    }
+
+    #prev {
+        top: 400px;
+        position: absolute;
+        left: 3%;
+        border: none;
+        height: 50px;
+        background-color: #D7EADD;
+        width: 50px;
+        border-radius: 50%;
+        visibility: visible;
+    }
+
+    #prev:hover, #next:hover {
+        background-color: #498553;
+    }
+}
+
+@media (min-width: 1440px) {
+    #next {
+        visibility: hidden;
+    }
+
+    #prev {
+        visibility: hidden;
+    }
+}
