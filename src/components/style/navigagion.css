@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: #F8F8F8;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.navigation_main {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  padding-left: 9%;
+}
+
+.navigation_main .navigation {
+  margin: 1000px 0 0 0;
+  width: 569px;
+  height: 57px;
+  margin: 0px 0 0px 62px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 2px 4px 13px rgba(138, 138, 138, 0.25);
+  box-shadow: 2px 4px 13px rgba(138, 138, 138, 0.25);
+  border-radius: 21px;
+}
+
+.navigation_main .navigation .navigation__text {
+  width: 518px;
+  height: 57px;
+  margin: 0px 0px 0px 51px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  border-radius: 21px;
+}
+
+.navigation_main .navigation .navigation__sticker {
+  width: 18px;
+  height: 18px;
+  margin: -37px 0px 0px 20px;
+}
